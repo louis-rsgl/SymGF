@@ -164,11 +164,16 @@ symGFPrint[args___]:=If[TrueQ[$SymGFVerbose],
   ]
 ];
 
+symGFPrint["SymGFplus - Symbolic Green's Function"];
+symGFPrint["Feng Zimin, Louis Rossignol and Guo Hong\nPhysics, McGill"];
+symGFPrint["2026-April-08"];
+symGFPrint["Please make sure that this is a new Mathematica session !!!"]
+symGFPrint["Report bugs or comments to ziminf@physics.mcgill.ca, louis.rossignol@mail.mcgill.ca or guo@physics.mcgill.ca"]
+
+symGFPrint["\nThis code is adapted from:"]
 symGFPrint["SymGF - Symbolic Green's Function"];
 symGFPrint["Feng Zimin and Guo Hong\nPhysics, McGill"];
 symGFPrint["2012-April-15"];
-symGFPrint["Please make sure that this is a new Mathematica session !!!"]
-symGFPrint["Report bugs or comments to ziminf@physics.mcgill.ca or guo@physics.mcgill.ca"]
 
 
 teom[]:=StoredEOM
