@@ -164,16 +164,19 @@ symGFPrint[args___]:=If[TrueQ[$SymGFVerbose],
   ]
 ];
 
-symGFPrint["SymGFplus - Symbolic Green's Function"];
-symGFPrint["Feng Zimin, Louis Rossignol and Guo Hong\nPhysics, McGill"];
-symGFPrint["2026-April-08"];
-symGFPrint["Please make sure that this is a new Mathematica session !!!"]
-symGFPrint["Report bugs or comments to ziminf@physics.mcgill.ca, louis.rossignol@mail.mcgill.ca or guo@physics.mcgill.ca"]
-
-symGFPrint["\nThis code is adapted from:"]
-symGFPrint["SymGF - Symbolic Green's Function"];
-symGFPrint["Feng Zimin and Guo Hong\nPhysics, McGill"];
-symGFPrint["2012-April-15"];
+symGFPrint["================================================"];
+symGFPrint[" SymGFplus : Symbolic Green's"];
+symGFPrint[" Authors   : Feng Zimin, Louis Rossignol, Guo Hong"];
+symGFPrint[" Affiliation: Department of Physics, McGill University"];
+symGFPrint[" Build date: 2026-April-08"];
+symGFPrint["================================================"];
+symGFPrint["Please load SymGFplus in a fresh Mathematica session."];
+symGFPrint["Bugs, questions, or comments: ziminf@physics.mcgill.ca"];
+symGFPrint["                                     louis.rossignol@mail.mcgill.ca"];
+symGFPrint["                                     guo@physics.mcgill.ca"];
+symGFPrint[""];
+symGFPrint["Adapted from SymGF (2012-April-15) by Feng Zimin and Guo Hong."];
+symGFPrint["Affiliation: Department of Physics, McGill University"];
 
 
 teom[]:=StoredEOM
